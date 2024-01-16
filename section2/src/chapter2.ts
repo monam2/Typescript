@@ -19,3 +19,6 @@ let doubleArr : number[][] = [
 let tup1 : [number, number] = [1,2];
 
 let tup2 : [number, string, boolean] = [1, "2", true];
+
+tup1.push(1);
+tup1.pop();

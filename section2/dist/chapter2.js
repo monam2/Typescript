@@ -13,4 +13,6 @@ let doubleArr = [
 //길이와 타입이 고정된 배열
 let tup1 = [1, 2];
 let tup2 = [1, "2", true];
+tup1.push(1);
+tup1.pop();
 export {};
