@@ -26,3 +26,30 @@ let user2 : User = {
     bio : "hi",
     location : "제주시",
 };
+
+
+// type CountryCodes = {
+//     Korea : string;
+//     UnitedState : string;
+//     UnitedKingdom : string;
+// };
+type CountryCodes = {
+    [key : string] : string;
+};
+
+let countryCodes : CountryCodes = {
+    Korea : 'ko',
+    UnitedState : 'us',
+    UnitedKingdom : 'uk',
+};
+
+type CountryNumberCodes = {
+    [key : string] : (number|string);
+    Korea : string;
+};
+
+let countryNumberCodes : CountryNumberCodes = {
+    Korea : "aa",
+    UnitedState : 840,
+    UnitedKingdom : 826,
+};

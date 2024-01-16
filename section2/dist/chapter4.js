@@ -15,4 +15,14 @@ let user2 = {
     bio: "hi",
     location: "제주시",
 };
+let countryCodes = {
+    Korea: 'ko',
+    UnitedState: 'us',
+    UnitedKingdom: 'uk',
+};
+let countryNumberCodes = {
+    Korea: "aa",
+    UnitedState: 840,
+    UnitedKingdom: 826,
+};
 export {};
